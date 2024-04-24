@@ -154,6 +154,7 @@ Handlers.add(
     .load chatroom.lua
 
 向聊天室发送消息来测试广播处理程序：
+
     Send({Target = ao.id, Action = "Broadcast", Data = "Broadcasting My 1st Message" })
 
 如果成功，您应该看到有一个message added to your outbox，然后您会看到一条新的打印消息，其中显示Broadcasting My 1st Message因为您是聊天室的成员，所以您也是此消息的收件人Members。
