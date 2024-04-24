@@ -178,12 +178,15 @@ Handlers.add(
 
 ### 邀请Trinity加入聊天室
 添加Trinity id
+
     Trinity = "y948iNUUNImam82gwZxFBNyvI8HLHB3Ld_uYmj9S20g"
 
 给Trinity发送加入聊天室的邀请：
+
     Send({ Target = Trinity, Action = "Join" })
 
 查看最后一条消息
+
     Inbox[#Inbox].Data 
 
 返回：
