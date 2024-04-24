@@ -102,7 +102,7 @@ Handlers.add(
     Handlers.list
 
 应该只会看到一个名为 Register 的处理程序返回 
-
+`
   {
     {
        handle = function: 0x6a73d0,
@@ -120,7 +120,7 @@ Handlers.add(
        name = "Register"
     }
    }
-
+`
 通过注册到聊天室来测试注册过程：  
 
     Send({ Target = ao.id, Action = "Register" })
