@@ -206,7 +206,7 @@ Handlers.add(
 开始你的aos过程。
 输入
 
-    .load-blueprint token` 
+    .load-blueprint token
 
 验证蓝图是否已加载.  
 
@@ -277,9 +277,11 @@ Handlers.add(
 
 ## 从另一个进程 ID 进行测试
 ## 重新打开一个终端，启动 
+
     aos chatroom-no-token
 
-注册到聊天室.  
+注册到聊天室. 
+
     .load chatroom.lua 
 
 发送注册消息
@@ -292,7 +294,8 @@ Expected Results:
     New Message From [Your Process ID]: Data = registered
 
 向聊天室发送消息:
-`Send({ Target ="OCgCclGndF7ylesSP3kU1VvmfebYnt6JerAYZnkoKDw", Action = "Broadcast", Data = "Hello?" })`
+
+    Send({ Target ="OCgCclGndF7ylesSP3kU1VvmfebYnt6JerAYZnkoKDw", Action = "Broadcast", Data = "Hello?" })
 
 告诉三位一体“完成了”
 
