@@ -321,11 +321,14 @@ Expected Results:
 
 
 ArConnect绑定代币
-```Sa0iBLPNyJQrwpTTG-tWLQU-1QeUAJA73DdxGGiKoJc```
+
+    Sa0iBLPNyJQrwpTTG-tWLQU-1QeUAJA73DdxGGiKoJc
 
 查询余额
-    ```Send({Target = "Sa0iBLPNyJQrwpTTG-tWLQU-1QeUAJA73DdxGGiKoJc", Action = "Balance"})```
+
+    Send({Target = "Sa0iBLPNyJQrwpTTG-tWLQU-1QeUAJA73DdxGGiKoJc", Action = "Balance"})
 
 发送代币
-    ```Send({Target = "Sa0iBLPNyJQrwpTTG-tWLQU-1QeUAJA73DdxGGiKoJc", Action = "Transfer", Quantity = "1000", Recipient = "你的地址"})```  
+
+    Send({Target = "Sa0iBLPNyJQrwpTTG-tWLQU-1QeUAJA73DdxGGiKoJc", Action = "Transfer", Quantity = "1000", Recipient = "你的地址"})
 
