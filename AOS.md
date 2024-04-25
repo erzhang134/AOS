@@ -297,7 +297,7 @@ Expected Results:
 
     Send({ Target ="OCgCclGndF7ylesSP3kU1VvmfebYnt6JerAYZnkoKDw", Action = "Broadcast", Data = "Hello?" })
 
-告诉三位一体“完成了”
+### 从原始的 aos 进程中，向聊天室发送一条广播消息，表示“已完成”。
 
     Send({ Target = ao.id , Action = "Broadcast", Data = "It is done" })
 
