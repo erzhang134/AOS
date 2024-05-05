@@ -332,3 +332,7 @@ ArConnect绑定代币
 
     Send({Target = "Sa0iBLPNyJQrwpTTG-tWLQU-1QeUAJA73DdxGGiKoJc", Action = "Transfer", Quantity = "1000", Recipient = "你的地址"})
 
+查询余额
+
+    .load-blueprint credUtils
+     CRED. balance
