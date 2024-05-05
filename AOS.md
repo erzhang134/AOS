@@ -2,8 +2,9 @@
 https://nodejs.org/en/download/package-manager
 
 
-    docker run --name aos-app2 -d aos-app
+    docker run --name aos-app3 -d aos-app
 
+进入img
 
     docker exec -it aos-app3 /bin/bash
 
