@@ -344,3 +344,37 @@ ArConnect绑定代币
 
     .load-blueprint credUtils
      CRED.balance
+
+
+
+BOT = "You newly created bot pid"
+Send({Target = CRED, Action = "Transfer", Quantity = "10", Recipient = BOT})
+CRED = "Sa0iBLPNyJQrwpTTG-tWLQU-1QeUAJA73DdxGGiKoJc"
+
+--Pick a Grid To Join
+Grid 1 - Bikini Bottom
+Game = "-vsAs0-3xQw6QUAYbUuonTbXAnFNJtzqhriKKOymQ9w"
+--or
+Grid 2 - The Matrix
+Game = "4xABPxOKVuXGYFEQWPq9R7dneQO1B2WHBAhX85TmF8Y"
+--or
+Grid 3 - Mario World
+Game = "ERRyYc0K3XurSBjpiTceT7Cg9acJaz-bES6w8SXhk-M"
+--or
+Grid 4 - SONICverse
+Game = "kVO15FhzzirOiJWMwHIpQW14pt-E0BOy2tV1icW0iaY"
+--or
+Grid 5 - DragonBallZ
+Game = "A42SJ0XqQC0ISHbBwm5Nv-yMQja-PgP5vMwuZtIWds8"
+
+Send({Target = CRED, Action = "Transfer", Quantity = "1000", Recipient = Game})
+Send({Target = ao.id, Action = "Tick"})
+Game id 03I7E-3wkTZa__Bn1Qq5flYrtEQ7NkcoD9Ctg4o2mNI`
+
+
+
+
+
+Send({Target = CRED, Action = "Transfer", Quantity = "1000", Recipient = Game})
+Send({Target = ao.id, Action = "Tick"})
+
