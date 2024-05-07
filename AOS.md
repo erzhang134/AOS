@@ -343,4 +343,4 @@ ArConnect绑定代币
 查询余额
 
     .load-blueprint credUtils
-     CRED. balance
+     CRED.balance
